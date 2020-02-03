@@ -1,0 +1,16 @@
+.container {
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 1rem;
+  // font-family: "Roboto", sans-serif;
+  background-color: #cccccc;
+  //sticky footer
+  display: flex;
+  flex-direction: column; // contect and header above footer not left and fight
+  min-height: 100vh;
+}
+// allows container to grow as need leaving enogh space for footer
+.content {
+  flex-grow: 1;
+  background-color: aqua;
+}
