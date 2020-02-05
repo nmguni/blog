@@ -1,7 +1,14 @@
 .header {
   padding: 1rem 0 3rem;
   // font-family: "Roboto", sans-serif;
-  background-color: #f4f4ff;
+  background-color: rgba(230, 230, 230, 0.205);
+  height: 460px;
+  // margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 .title {
   color: #000;
