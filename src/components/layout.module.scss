@@ -1,3 +1,11 @@
+// Colors
+$bg-color: #fff;
+$dot-color: #cec9c6;
+
+// Dimensions
+$dot-size: 2px;
+$dot-space: 22px;
+
 .container {
   margin: 0 auto;
   max-width: 65%;
@@ -9,11 +17,23 @@
   display: flex;
   flex-direction: column; // contect and header above footer not left and fight
   min-height: 100vh;
-  position: relative;
-  bottom: 7rem;
+  // position: relative;
+  // bottom: 7rem;
 }
 // allows container to grow as need leaving enogh space for footer
 .content {
   flex-grow: 1;
   // background-color: aqua;
+}
+
+.bgStyle {
+  background: linear-gradient(
+        90deg,
+        $bg-color ($dot-space - $dot-size),
+        transparent 1%
+      )
+      center,
+    linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+    $dot-color;
+  background-size: $dot-space $dot-space;
 }
