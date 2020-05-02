@@ -10,15 +10,28 @@ $dot-space: 22px;
   margin: 0 auto;
   max-width: 65%;
   padding: 1rem;
-  // background-color: #f4f4f4;
-  // font-family: "Roboto", sans-serif;
-  // background-color: #cccccc;
-  //sticky footer
   display: flex;
   flex-direction: column; // contect and header above footer not left and fight
   min-height: 100vh;
-  // position: relative;
-  // bottom: 7rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    max-width: 80%;
+    img {
+      display: none;
+    }
+  }
+}
+@media only screen and (max-width: 750px) {
+  .container {
+    max-width: 90%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .container {
+    max-width: 95%;
+  }
 }
 // allows container to grow as need leaving enogh space for footer
 .content {
