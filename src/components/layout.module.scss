@@ -27,6 +27,9 @@ $dot-space: 22px;
 }
 
 .bgStyle {
+  h1 {
+    background-color: yellow;
+  }
   background: linear-gradient(
         90deg,
         $bg-color ($dot-space - $dot-size),

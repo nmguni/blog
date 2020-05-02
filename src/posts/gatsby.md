@@ -5,7 +5,7 @@ date: "2020-1-27"
 
 OVER 90000000!!!!!!
 
-![goku](./goku.png)
+![goku](./images/goku.png)
 
 ## Topics coverd
 

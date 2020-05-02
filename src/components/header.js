@@ -20,7 +20,7 @@ const Header = () => {
         <div>
           <h1>
             <Link className={headerStyles.title} to="/">
-              {data.site.siteMetadata.title}
+              <span> </span> {data.site.siteMetadata.title}
             </Link>
           </h1>
         </div>
@@ -50,18 +50,18 @@ const Header = () => {
                 activeClassName={headerStyles.activeNavItem}
                 to="/about"
               >
-                About
+                Contact
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 className={headerStyles.navItem}
                 activeClassName={headerStyles.activeNavItem}
                 to="/contact"
               >
-                Artcales
+                Article
               </Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </header>
